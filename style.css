@@ -24,7 +24,6 @@
 	position: relative;
 	width: 100%;
 	background-size: cover;
-	background-attachment: scroll;
 }
 
 .landing-text {
@@ -50,7 +49,6 @@
 	position: relative;
 	width: 100%;
 	background-size: cover;
-	background-attachment: scroll;
 }
 footer{
 	width: 100%;
