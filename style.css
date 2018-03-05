@@ -48,12 +48,18 @@
 	width: 100%;
 }
 #fixed{
-	background: url(img/pexels-photo-97077.jpeg) no-repeat center center fixed;
+	background: url(img/Backgroundcode.jpeg) no-repeat center center;
 	display: table;
 	height: 60%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	background-attachment: fixed;
+}
+@media(max-width: 767px){
+	#fixed{
+	background-attachment: initial;
+	}
 }
 footer{
 	width: 100%;
