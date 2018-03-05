@@ -18,14 +18,19 @@
 	color: #FFF;
 }
 #home {
-	background: url(img/mountains.jpeg) no-repeat center center fixed;
+	background: url(img/mountains.jpeg) no-repeat center center;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	background-attachment: fixed;
 }
-
+@media(max-width: 767px){
+	#home{
+		background-attachment: initial;
+	}
+}
 .landing-text {
 	display: table-cell;
 	text-align: Center;
