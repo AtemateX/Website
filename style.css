@@ -45,7 +45,7 @@ html, body {
 .img-thumbnail {
     display: block;
     height: auto;
-    max-width: 28%;
+    max-width: 25%;
     margin: 0 auto;
 }
 
