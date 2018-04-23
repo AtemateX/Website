@@ -35,7 +35,7 @@ html, body {
 	display: table-cell;
 	text-align: Center;
 	vertical-align:top;
-	padding: 60px 0;
+	padding: 70px 0;
 }
 .landing-text h1{
 	font-size: 500%;
@@ -45,7 +45,7 @@ html, body {
 .img-thumbnail {
     display: block;
     height: auto;
-    max-width: 25%;
+    max-width: 18%;
     margin: 0 auto;
 }
 
