@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Frank Ånäs Snickars personal website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="style.css" rel="stylesheet" />
-  <link rel="shortcut icon" type="image/ico" href="img/Favicon.ico">
+    <title>Frank Ånäs Snickars personal website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/ico" href="img/Favicon.ico">
 </head>
 
 <body>
-
-   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-       <div class="container-fluid">
-           <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="#"><img src="img/loggasida.png">
-               </a>
-           </div>
-           <div class="collapse navbar-collapse" id="navbar-collapse-main">
-               <ul class="nav navbar-nav navbar-right">
-                   <li><a target="_blank" href="https://www.facebook.com/AtemateX" class=" fa fa-facebook"></a></li>
-                   <li><a target="_blank" href="https://twitter.com/AtemateX" class=" fa fa-twitter"></a></li>
-                   <li><a target="_blank" href="https://www.linkedin.com/in/frank-%C3%A5n%C3%A4s-snickars-19362ab3/" class=" fa fa-linkedin"></a></li>
-                   <li><a target="_blank" href="https://github.com/AtemateX" class=" fa fa-github"></a></li>
-                   <li><a href="#">Home</a></li>
-                   <li><a href="#Portfolio">Portfolio</a></li>
-                   <li><a href="#About">About</a></li>
-               </ul>
-           </div>
-       </div>
-   </nav>
-
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/loggasida.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a target="_blank" href="https://www.facebook.com/AtemateX" class=" fa fa-facebook"></a></li>
+                    <li><a target="_blank" href="https://twitter.com/AtemateX" class=" fa fa-twitter"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/frank-%C3%A5n%C3%A4s-snickars-19362ab3/" class=" fa fa-linkedin"></a></li>
+                    <li><a target="_blank" href="https://github.com/AtemateX" class=" fa fa-github"></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div id="home">
-        <div class ="landing-text">
+        <div class="landing-text">
+            <div class="Image">
+                <img src="img/Optimized-Frank2.jpg" class="img-thumbnail">
+            </div>
             <h1>FRANK ÅNÄS SNICKARS</h1>
             <h3>Software developer, creating games with main focus on C++ and C#</h3>
             <a href="#Portfolio" class="btn btn-default btn-lg">Portfolio</a>
@@ -49,87 +53,176 @@
     <span id="Portfolio"></span>
     <div class="padding">
         <div class="container">
-           <div class="row">
-               <div class="col-sm-6">
-                   <img src="img/Portfolio.png">
-               </div>
-               <div class="col-sm-6 text-center">
-                   <h2>Portfolio</h2>
-                   <p class="lead">Here is my portfolio section. It contains different projects that I am working on,
-                       mostly games and algorithms. Feel free to have a look.</p>
-                   <p class="lead">All of the source code can be obtained from the link accompanying every project. Feel free to download and try it out for yourself. 
-                     All specifications on how to compile and run a specific project is documented accompanied with that project.</p>
-               </div>
-           </div>
-        </div>
-    </div>
-<div class="padding">
-        <div class="container">
-           <div class="row">
+            <div class="row">
                 <div class="col-sm-6">
-                   <h2>Portfolio example 1</h2>
-                   <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                  <br>
-                    <h3>Source code</h3>
-                    <h4>Can be obtained from
-                        <a target="_blank" href="https://github.com/AtemateX" rel="external">GitHub</a>
-                    </h4>
-               </div>
-               <div class="col-sm-6">
-                 <div class="embed-responsive embed-responsive-16by9">
-                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
-                  </div>
-               </div>
-           </div>
+                    <img src="img/Portfolio.png">
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h2>Portfolio</h2>
+                    <p class="lead">
+                        Here is my portfolio section. It contains different projects that I am working on,
+                        mostly games and algorithms. Feel free to have a look.
+                    </p>
+                    <p class="lead">
+                        All of the source code can be obtained from the link accompanying every project. Feel free to download and try it out for yourself.
+                        All specifications on how to compile and run a specific project is documented accompanied with that project.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="padding">
         <div class="container">
-           <div class="row">
+            <div class="row">
                 <div class="col-sm-6">
-                   <h2>Portfolio example 2</h2>
-                   <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                  <br>
+                    <h2>Portfolio example 1</h2>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h4>
+                    <br>
                     <h3>Source code</h3>
-                    <h4>Can be obtained from
+                    <h4>
+                        Can be obtained from
                         <a target="_blank" href="https://github.com/AtemateX" rel="external">GitHub</a>
                     </h4>
-               </div>
-               <div class="col-sm-6">
-                  <div class="embed-responsive embed-responsive-16by9">
-                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
-                  </div>
-               </div>
-           </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  <div class="padding">
+    <div class="padding">
         <div class="container">
-           <div class="row">
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="padding">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-6">
-                   <h2>Portfolio example 3</h2>
-                   <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                  <br>
+                    <h2>Portfolio example 2</h2>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h4>
+                    <br>
                     <h3>Source code</h3>
-                    <h4>Can be obtained from
+                    <h4>
+                        Can be obtained from
                         <a target="_blank" href="https://github.com/AtemateX" rel="external">GitHub</a>
                     </h4>
-               </div>
-               <div class="col-sm-6">
-                 <div class="embed-responsive embed-responsive-16by9">
-                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
-                  </div>
-               </div>
-           </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Portfolio example 3</h2>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h4>
+                    <br>
+                    <h3>Source code</h3>
+                    <h4>
+                        Can be obtained from
+                        <a target="_blank" href="https://github.com/AtemateX" rel="external">GitHub</a>
+                    </h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MpUj-Aua48" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+            </div>
         </div>
     </div>
     <div id="fixed">
@@ -137,45 +230,55 @@
     <span id="About"></span>
     <div class="padding">
         <div class="container">
-           <div class="row">
+            <div class="row">
                 <div class="col-sm-6">
-                   <h2>About me</h2>
-                   <h4>I am a passionate software developer who lives in Stockholm, Sweden who is mostly creating games and occasionally other stuff like this website. Mainly working with C++ and C#.
-                       But also Unity, Unreal engine, HTML, CSS and JavaScript.</h4>
+                    <h2>About me</h2>
+                    <h4>
+                        I am a passionate software developer who lives in Stockholm, Sweden who is mostly creating games and occasionally other stuff like this website. Mainly working with C++ and C#.
+                        But also Unity, Unreal engine, HTML, CSS and JavaScript.
+                    </h4>
                     <h4>I'm activly looking for a new job in the games industry. I'm on the whole stack working with anything from logic to pathfinding algorithms to UI/UX.</h4>
-                   <h3>Do my work look interesting? Contact me on any social media platform linked above or below.</h3>
-               </div>
-               <div class="col-sm-6">
-                   <img src="img/Optimized-Frank2.jpg" >
-               </div>
-           </div>
+                    <h3>Do my work look interesting? Contact me on any social media platform linked above or below.</h3>
+                </div>
+                <div class="container">
+                    <a href="img/Optimized-Frank2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="img/Optimized-Frank2.jpg" class="img-thumbnail">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="container-fluid text-center">
         <div class="row">
             <div class="col-sm-4">
-               <h3>Copyright</h3>
+                <h3>Copyright</h3>
                 <br>
                 <h4>© 2018 Frank Ånäs Snickars</h4>
-            </div>   
+            </div>
             <div class="col-sm-4">
-            <h3>Created by</h3>
+                <h3>Created by</h3>
                 <br>
                 <h4>Frank Ånäs Snickars</h4>
             </div>
             <div class="col-sm-4">
                 <h3>Connect</h3>
                 <a target="_blank" href="https://www.facebook.com/AtemateX" class=" fa fa-facebook"></a>
-                 <a target="_blank" href="https://twitter.com/AtemateX" class=" fa fa-twitter"></a>
+                <a target="_blank" href="https://twitter.com/AtemateX" class=" fa fa-twitter"></a>
                 <a target="_blank" href="https://www.linkedin.com/in/frank-%C3%A5n%C3%A4s-snickars-19362ab3/" class=" fa fa-linkedin"></a>
                 <a target="_blank" href="https://github.com/AtemateX" class=" fa fa-github"></a>
-            </div>    
+            </div>
         </div>
-      <br>
+        <br>
         <br>
         <br>
         <a href="#">Back to top</a>
     </footer>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
 </body>
 </html>
