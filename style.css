@@ -35,7 +35,7 @@ html, body {
 	display: table-cell;
 	text-align: Center;
 	vertical-align:top;
-	padding: 24px 0px;
+	padding: 40px 0px;
 }
 .landing-text h1{
 	font-size: 500%;
@@ -44,7 +44,7 @@ html, body {
 
 .img-rounded {
     height: auto;
-    max-width: 30%;
+    max-width: 20%;
     margin:20px auto;
 }
         .Image {
