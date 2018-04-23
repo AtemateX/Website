@@ -1,6 +1,9 @@
 html, body {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 .navbar{
 	background-color: #23415C;
@@ -32,10 +35,10 @@ html, body {
 	}
 }
 .landing-text {
-	display: table-cell;
+	display: normal;
 	text-align: Center;
 	vertical-align:top;
-	padding: 40px 0px;
+	padding: 0px 0px;
 }
 .landing-text h1{
 	font-size: 500%;
@@ -44,11 +47,11 @@ html, body {
 
 .img-rounded {
     height: auto;
-    max-width: 20%;
-    margin:20px auto;
+    max-width: 32%;
+    margin:0px auto;
 }
         .Image {
-    padding: 40px;
+    padding: 35px;
 
 }
 
