@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
 	height: 100%;
 	width: 100%;
 }
@@ -34,12 +34,23 @@
 .landing-text {
 	display: table-cell;
 	text-align: Center;
-	vertical-align: middle;
-	padding: 50px 0;
+	vertical-align:top;
+	padding: 60px 0;
 }
 .landing-text h1{
 	font-size: 500%;
 	font-weight: 700;
+}
+
+.img-thumbnail {
+    display: block;
+    height: auto;
+    max-width: 28%;
+    margin: 0 auto;
+}
+
+.Image {
+    padding: 30px;
 }
 .padding {
     padding: 80px 0;
